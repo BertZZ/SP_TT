@@ -14,4 +14,4 @@ To run the tests either `bundle` or simply `gem install rspec` as it is the only
 ## Notes
 My first solution attempted to use a structure such as `ruby -r "./lib/parser.rb" -e "Parser.new("webserver.log")"`. I tried this approch as it would have allowed parser to be a class and essentially function as Analyser does in this solution, but this method didn't work with the filename throwing errors and so I moved to my current solution.
 
-The solution as written only works with files in this specific format. The solution could be extended to modifiy any file into a useable format i.e JSON and to also fetch files from the web. 
+The solution as written only works with files in this specific format. The solution could be extended to modifiy any file into a uniform format i.e JSON and to also fetch files from the web. 
