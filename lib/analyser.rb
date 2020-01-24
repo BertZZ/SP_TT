@@ -12,6 +12,6 @@ class Analyser
   end
 
   def analyse_page_views
-    remove_ip(@data).tally
+    remove_ip(@data).tally.sort_by{ |page,views| views }.reverse
   end
 end
