@@ -1,5 +1,4 @@
 require 'analyser'
-require 'file_opener'
 
 describe Analyser do
   let(:file) {File.open('test.txt')}

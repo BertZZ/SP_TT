@@ -1,4 +1,4 @@
-class Analyser
+class Analyser #It analyses the data
 
   attr_reader :data
 
